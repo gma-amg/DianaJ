@@ -1,0 +1,189 @@
+{
+    "jewellery": {
+        "earring": [
+            {
+                "id": 1,
+                "frontImage": "drawable/aaastud_drop5.png",
+                "rightImage": "drawable/ear_drop5_rside.png",
+                "leftImage": "drawable/ear_drop5_lside.png",
+				"description":"Jumka"
+            },           
+            {
+                "id": 2,
+                "frontImage": "drawable/aaastud_jumka1.png",
+                "rightImage": "drawable/ear_jumka1_rside.png",
+                "leftImage": "drawable/ear_jumka1_lside.png",
+				"description":"Jumka"
+            },
+            {
+                "id": 3,
+                "frontImage": "drawable/aaastud_drop9.png",
+                "rightImage": "drawable/ear_drop9_rside.png",
+                "leftImage": "drawable/ear_drop9_lside.png",
+				"description":"Stud Drop"
+            },
+            {
+                "id": 4,
+                "frontImage": "drawable/aaastud_drop10.png",
+                "rightImage": "drawable/ear_drop10_rside.png",
+                "leftImage": "drawable/ear_drop10_lside.png",
+				"description":" Stud Drop"
+            },
+            {
+                "id": 5,
+                "frontImage": "drawable/aaastud_jumka6.png",
+                "rightImage": "drawable/ear_jumka6_rside.png",
+                "leftImage": "drawable/ear_jumka6_lside.png",
+				"description":"Jumka"
+            },
+            {
+                "id": 6,
+                "frontImage": "drawable/aaastud_drop6.png",
+                "rightImage": "drawable/ear_drop6_rside.png",
+                "leftImage": "drawable/ear_drop6_lside.png",
+				"description":"Stud Drop"
+            },
+            {
+                "id": 7,
+                "frontImage": "drawable/aaastud_jumka8.png",
+                "rightImage": "drawable/ear_jumka8_rside.png",
+                "leftImage": "drawable/ear_jumka8_lside.png",
+				"description":"Jumka"
+            },			
+			{
+                "id": 8,
+                "frontImage": "drawable/aaastud_jumka9.png",
+                "rightImage": "drawable/ear_jumka9_rside.png",
+                "leftImage": "drawable/ear_jumka9_lside.png",
+				"description":"Jumka"
+            },
+			{
+                "id": 9,
+                "frontImage": "drawable/aaastud_jumka2.png",
+                "rightImage": "drawable/ear_jumka2_rside.png",
+                "leftImage": "drawable/ear_jumka2_lside.png",
+				"description":"Jumka"
+            },
+			{
+                "id": 10,
+                "frontImage": "drawable/aaastud_jumka5.png",
+                "rightImage": "drawable/ear_jumka5_rside.png",
+                "leftImage": "drawable/ear_jumka5_lside.png",
+				"description":"Jumka"
+            },			
+			{
+                "id": 11,
+                "frontImage": "drawable/aaastud_drop7.png",
+                "rightImage": "drawable/ear_ring30_rside.png",
+                "leftImage": "drawable/ear_ring30_lside.png",
+				"description":"Stud Drop"
+            },
+			{
+                "id": 12,
+                "frontImage": "drawable/aaastud_drop90.png",
+                "rightImage": "drawable/ear_drop90_rside.png",
+                "leftImage": "drawable/ear_drop90_lside.png",
+				"description":"Stud Drop"
+            },
+			{
+                "id": 13,
+                "frontImage": "drawable/aaastud_jumka3.png",
+                "rightImage": "drawable/ear_jumka3_rside.png",
+                "leftImage": "drawable/ear_jumka3_lside.png",
+				"description":"Jumka"
+            },
+			{
+                "id": 14,
+                "frontImage": "drawable/aaastud_jumka4.png",
+                "rightImage": "drawable/ear_jumka4_rside.png",
+                "leftImage": "drawable/ear_jumka4_lside.png",
+				"description":"Jumka"
+            },
+			{
+                "id": 15,
+                "frontImage": "drawable/aaastud_drop40.png",
+                "rightImage": "drawable/ear_drop40_rside.png",
+                "leftImage": "drawable/ear_drop40_lside.png",
+				"description":"Ear Drop"
+            }
+        ],
+        "necklace": [
+            {
+                "id": 1,
+                "image": "drawable/ccnecklace30.png",
+				"description":"Neck Lace"
+            },
+            {
+                "id": 2,
+                "image": "drawable/ccchain97.png",
+				"description":"Chain"
+            },
+            {
+                "id": 3,
+                "image": "drawable/ccchain95.png",
+				"description":"Chain"
+            },
+            {
+                "id": 4,
+                "image": "drawable/ccchain96.png",
+				"description":"Chain"
+            },
+            {
+                "id": 5,
+                "image": "drawable/ccchain8.png",
+				"description":"Chain"
+            },
+            {
+                "id": 6,
+                "image": "drawable/ccchain9.png",
+				"description":"Chain"
+            },
+            {
+                "id": 7,
+                "image": "drawable/ccchain3.png",
+				"description":"Chain"
+            },
+			{
+                "id": 8,
+                "image": "drawable/ccchain50.png",
+				"description":"Chain"
+            },
+			{
+                "id": 9,
+                "image": "drawable/ccchain80.png",
+				"description":"Chain"
+            },
+			{
+                "id": 10,
+                "image": "drawable/ccnecklace5.png",
+				"description":"Neck Lace"
+            },
+			{
+                "id": 11,
+                "image": "drawable/ccnecklace6.png",
+				"description":"Neck Lace"
+            },
+			{
+                "id": 12,
+                "image": "drawable/ccnecklace7.png",
+				"description":"Neck Lace"
+            },
+			{
+                "id": 13,
+                "image": "drawable/ccnecklace41.png",
+				"description":"Neck Lace"
+            },
+			{
+                "id": 14,
+                "image": "drawable/ccnecklace3.png",
+				"description":"Neck Lace"
+            },
+			{
+                "id": 15,
+                "image": "drawable/ccnecklace6.png",
+				"description":"Neck Lace"
+            }
+			
+        ]
+    }
+}

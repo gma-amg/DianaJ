@@ -1,0 +1,93 @@
+sqLiteHelper.insertData("ImageStud1 ", "1450", "stud", "/storage/emulated/0/Download/Stud1.png"); 
+sqLiteHelper.insertData("ImageStud2 ", "2450", "stud", "/storage/emulated/0/Download/Stud2.png"); 
+sqLiteHelper.insertData("ImageStud3 ", "1950", "stud","/storage/emulated/0/Download/Stud3.png"); 
+sqLiteHelper.insertData("ImageStud4 ", "3550","stud", "/storage/emulated/0/Download/Stud4.png"); 
+sqLiteHelper.insertData("ImageStud5 ", "5500", "stud","/storage/emulated/0/Download/Stud5.png"); 
+sqLiteHelper.insertData("ImageStud6 ", "3478","stud", "/storage/emulated/0/Download/Stud6.png"); 
+
+sqLiteHelper.insertData("ImageDrop1 ", "1450", "drop", "/storage/emulated/0/Download/Drop1.png");   
+sqLiteHelper.insertData("ImageDrop2 ", "2450", "drop", "/storage/emulated/0/Download/Drop2.png");   
+sqLiteHelper.insertData("ImageDrop3 ", "1950", "drop","/storage/emulated/0/Download/Drop3.png");   
+sqLiteHelper.insertData("ImageDrop4 ", "3550","drop", "/storage/emulated/0/Download/Drop4.png");  
+sqLiteHelper.insertData("ImageDrop5 ", "5500", "drop","/storage/emulated/0/Download/Drop5.png");   
+
+sqLiteHelper.insertData("ImageJumka1 ", "1450", "jumka", "/storage/emulated/0/Download/Jumka1.png");
+sqLiteHelper.insertData("ImageJumka2 ", "2450", "jumka", "/storage/emulated/0/Download/Jumka2.png");
+sqLiteHelper.insertData("ImageJumka3 ", "1950", "jumka","/storage/emulated/0/Download/Jumka3.png");
+sqLiteHelper.insertData("ImageJumka4 ", "3550","jumka", "/storage/emulated/0/Download/Jumka4.png");
+sqLiteHelper.insertData("ImageJumka5 ", "5500", "jumka","/storage/emulated/0/Download/Jumka5.png");
+sqLiteHelper.insertData("ImageJumka6 ", "3478","jumka", "/storage/emulated/0/Download/Jumka6.png");
+
+
+sqLiteHelper.insertData("ImageChain1 ", "8900","Chain", "/storage/emulated/0/Download/Chain1.png");
+sqLiteHelper.insertData("ImageChain2 ", "4800","Chain", "/storage/emulated/0/Download/Chain2.png");
+sqLiteHelper.insertData("ImageChain3 ", "8900","Chain", "/storage/emulated/0/Download/Chain3.png");
+sqLiteHelper.insertData("ImageChain4 ", "5095","Chain", "/storage/emulated/0/Download/Chain4.png");
+sqLiteHelper.insertData("ImageChain5 ", "3233","Chain", "/storage/emulated/0/Download/Chain5.png");
+
+sqLiteHelper.insertData("ImageMangalsutra1 ", "5505","Mangalsutra", "/storage/emulated/0/Download/Mangalsutra1.png");
+sqLiteHelper.insertData("ImageMangalsutra2 ", "3235","Mangalsutra", "/storage/emulated/0/Download/Mangalsutra2.png");
+sqLiteHelper.insertData("ImageMangalsutra3 ", "1267","Mangalsutra", "/storage/emulated/0/Download/Mangalsutra3.png");
+sqLiteHelper.insertData("ImageMangalsutra4 ", "7821","Mangalsutra", "/storage/emulated/0/Download/Mangalsutra4.png");
+
+
+sqLiteHelper.insertData("ImageNecklace1 ", "6543","Necklace", "/storage/emulated/0/Download/Necklace1.png");
+sqLiteHelper.insertData("ImageNecklace2 ", "1245","Necklace", "/storage/emulated/0/Download/Necklace2.png");
+sqLiteHelper.insertData("ImageNecklace3 ", "7853","Necklace", "/storage/emulated/0/Download/Necklace3.png");
+sqLiteHelper.insertData("ImageNecklace4 ", "2346","Necklace", "/storage/emulated/0/Download/Necklace4.png");
+
+
+sqLiteHelper.insertData("ImagePendant1 ", "2346","Pendant", "/storage/emulated/0/Download/Pendant1.png");
+sqLiteHelper.insertData("ImagePendant2 ", "2346","Pendant", "/storage/emulated/0/Download/Pendant2.png");
+sqLiteHelper.insertData("ImagePendant3 ", "2346","Pendant", "/storage/emulated/0/Download/Pendant3.png");
+sqLiteHelper.insertData("ImagePendant4 ", "2346","Pendant", "/storage/emulated/0/Download/Pendant4.png");
+
+
+width height and width:
+
+        sqLiteHelper.insertData("ImageStud1 ", "1450", "stud", "/storage/emulated/0/Download/Stud1.png","14","9");
+        sqLiteHelper.insertData("ImageStud2 ", "2450", "stud", "/storage/emulated/0/Download/Stud2.png","12","8");
+        sqLiteHelper.insertData("ImageStud3 ", "1950", "stud","/storage/emulated/0/Download/Stud3.png","13","8");
+        sqLiteHelper.insertData("ImageStud4 ", "3550","stud", "/storage/emulated/0/Download/Stud4.png","11","8");
+        sqLiteHelper.insertData("ImageStud5 ", "5500", "stud","/storage/emulated/0/Download/Stud5.png","13","9");
+        sqLiteHelper.insertData("ImageStud6 ", "3478","stud", "/storage/emulated/0/Download/Stud6.png","12","9");
+		
+		
+		sqLiteHelper.insertData("ImageDrop1 ", "1450", "drop", "/storage/emulated/0/Download/Drop1.png","29","7");
+        sqLiteHelper.insertData("ImageDrop2 ", "2450", "drop", "/storage/emulated/0/Download/Drop2.png","26","9");
+        sqLiteHelper.insertData("ImageDrop3 ", "1950", "drop","/storage/emulated/0/Download/Drop3.png","22","8");
+        sqLiteHelper.insertData("ImageDrop4 ", "3550","drop", "/storage/emulated/0/Download/Drop4.png","27","8");
+        sqLiteHelper.insertData("ImageDrop5 ", "5500", "drop","/storage/emulated/0/Download/Drop5.png","23","10");
+
+        sqLiteHelper.insertData("ImageJumka1 ", "1450", "jumka", "/storage/emulated/0/Download/Jumka1.png","21", "11");
+        sqLiteHelper.insertData("ImageJumka2 ", "2450", "jumka", "/storage/emulated/0/Download/Jumka2.png","23","11");
+        sqLiteHelper.insertData("ImageJumka3 ", "1950", "jumka","/storage/emulated/0/Download/Jumka3.png","22","12");
+        sqLiteHelper.insertData("ImageJumka4 ", "3550","jumka", "/storage/emulated/0/Download/Jumka4.png","19","11");
+        sqLiteHelper.insertData("ImageJumka5 ", "5500", "jumka","/storage/emulated/0/Download/Jumka5.png","21","11");
+        sqLiteHelper.insertData("ImageJumka6 ", "3478","jumka", "/storage/emulated/0/Download/Jumka6.png","18","10");
+		
+		
+		
+		
+sqLiteHelper.insertData("ImageChain1 ", "8900","Chain", "/storage/emulated/0/Download/Chain1.png","190","9");
+sqLiteHelper.insertData("ImageChain2 ", "4800","Chain", "/storage/emulated/0/Download/Chain2.png","227","9");
+sqLiteHelper.insertData("ImageChain3 ", "8900","Chain", "/storage/emulated/0/Download/Chain3.png","180","9");
+sqLiteHelper.insertData("ImageChain4 ", "5095","Chain", "/storage/emulated/0/Download/Chain4.png","220","9");
+sqLiteHelper.insertData("ImageChain5 ", "3233","Chain", "/storage/emulated/0/Download/Chain5.png","240","9");
+
+sqLiteHelper.insertData("ImageMangalsutra1 ", "5505","Mangalsutra", "/storage/emulated/0/Download/Mangalsutra1.png","200","9");
+sqLiteHelper.insertData("ImageMangalsutra2 ", "3235","Mangalsutra", "/storage/emulated/0/Download/Mangalsutra2.png","200","9");
+sqLiteHelper.insertData("ImageMangalsutra3 ", "1267","Mangalsutra", "/storage/emulated/0/Download/Mangalsutra3.png","200","9");
+sqLiteHelper.insertData("ImageMangalsutra4 ", "7821","Mangalsutra", "/storage/emulated/0/Download/Mangalsutra4.png","200","9");
+
+
+sqLiteHelper.insertData("ImageNecklace1 ", "6543","Necklace", "/storage/emulated/0/Download/Necklace1.png","120","9");
+sqLiteHelper.insertData("ImageNecklace2 ", "1245","Necklace", "/storage/emulated/0/Download/Necklace2.png","178","9");
+sqLiteHelper.insertData("ImageNecklace3 ", "7853","Necklace", "/storage/emulated/0/Download/Necklace3.png","190","9");
+sqLiteHelper.insertData("ImageNecklace4 ", "2346","Necklace", "/storage/emulated/0/Download/Necklace4.png","100",9);
+
+
+sqLiteHelper.insertData("ImagePendant1 ", "2322","Pendant", "/storage/emulated/0/Download/Pendant1.png","190","9");
+sqLiteHelper.insertData("ImagePendant2 ", "2323","Pendant", "/storage/emulated/0/Download/Pendant2.png","190","9");
+sqLiteHelper.insertData("ImagePendant3 ", "7987","Pendant", "/storage/emulated/0/Download/Pendant3.png","180","9");
+sqLiteHelper.insertData("ImagePendant4 ", "9876","Pendant", "/storage/emulated/0/Download/Pendant4.png","190","9");

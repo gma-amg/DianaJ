@@ -1,0 +1,103 @@
+body{
+  		overflow: hidden;
+      background-color: #130e08;
+
+  	}
+  	.buttons{
+  		float: right;
+  		margin-right: 100px;
+  		margin-top: 0;
+  	}
+  	img{
+  		float: right;
+  		margin-right: -210;
+  		margin-top: 150px;
+  		width:230px;
+  		height:270px;
+  	}
+    .rate {
+        float: right;
+        margin-top:25px;
+        margin-right:-155px;
+        height: 46px;
+        padding: 0 10px;
+    }
+    .rate:not(:checked) > input {
+        position:absolute;
+        top:-9999px;
+    }
+    .rate:not(:checked) > label {
+        float:right;
+        width:1em;
+        overflow:hidden;
+        white-space:nowrap;
+        cursor:pointer;
+        font-size:30px;
+        color:#ccc;
+    }
+    .rate:not(:checked) > label:before {
+        content: '★ ';
+    }
+    .rate > input:checked ~ label {
+        color: #ffc700;    
+    }
+    .rate:not(:checked) > label:hover,
+    .rate:not(:checked) > label:hover ~ label {
+        color: #deb217;  
+    }
+    .rate > input:checked + label:hover,
+    .rate > input:checked + label:hover ~ label,
+    .rate > input:checked ~ label:hover,
+    .rate > input:checked ~ label:hover ~ label,
+    .rate > label:hover ~ input:checked ~ label {
+        color: #c59b08;
+    }
+    input[type="range"] {
+     -webkit-appearance: none;
+    }
+
+    input[type="range"]:focus {
+     outline: none;
+    }
+    input[type="range"]::-webkit-slider-runnable-track {
+     background: white;
+     height: 5px;
+    }
+
+    input[type="range"]::-moz-range-track {
+     background: white;
+     height: 5px;
+    }
+     input[type="range"]::-webkit-slider-thumb {
+     -webkit-appearance: none;
+     border: 1px solid #000000;
+     height: 26px;
+     width: 16px;
+     border-radius: 2px;
+     background: #ffffff;
+     cursor: pointer;
+     margin-top: -14px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+     box-shadow: 0.5px 0.5px 0.5px #000000, 0px 0px 0.5px #0d0d0d; /* Add cool effects to your sliders! */
+    }
+
+    input[type="range"]::-moz-range-thumb {
+      box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+      border: 1px solid #000000;
+      height: 36px;
+      width: 16px;
+      border-radius: 3px;
+      background: #ffffff;
+      cursor: pointer;
+    }
+
+    .footer{
+      margin-bottom: 0px;
+    }
+    .himage {
+        display: block;
+        padding: 20px 15px;
+        padding-top: 425;
+        width: 200px;
+        height: 7vh;
+        margin-right:-230px;
+      }

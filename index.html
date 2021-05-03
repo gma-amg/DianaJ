@@ -1,0 +1,125 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Diana's Jewels</title>
+  <link type="image/jpg" href="Logic2.jpg" rel="icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+ 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="index.css">
+  
+</head>  
+
+<body>  
+  <header>
+    <div class="wrapper">
+        <a href="index.html">
+        <img
+          src="logo.png"
+          alt="logo"
+          class="himage"
+        />
+        </a>
+         <div class="user">
+          <i class="fas fa-shopping-cart"></i>SHOPPING CART
+          <i class="fas fa-user"></i>ACCOUNT
+          <i class="fas fa-lock"></i>SIGN OUT
+        </div>
+      </div>
+     
+      <span></span>
+      <nav>
+        <a href="index.html" style="text-decoration: none;">Home</a>
+        <!--<a href="neckWearImages.html" style="text-decoration: none;">Neck Wear</a>-->
+        <a href="earRingImagesPage.html" style="text-decoration: none;">Ear Rings</a>
+        <!--<a href="index.html" style="text-decoration: none;">Rings</a>-->
+        <a href="index.html" style="text-decoration: none;">Gift Cards</a>
+        <a href="index.html" style="text-decoration: none;">Promotions</a>
+      </nav>
+    </header>
+
+    <div class="slidercontainer">  
+        <div class="showSlide fade">  
+            <img src="Images/carousel/image1.jpg" />  
+            <div class="content content1">
+              <h5>LOOK LIKE ROYALTY</h5>
+              <h2>GOLD SETS</h2>
+              <p>Browse our latest gold collection now! Shop with us to find your wedding season essentials.</p>
+              <a href="#" class="btn btn-more1">See More</a>
+            </div>  
+        </div>  
+        <div class="showSlide fade">  
+            <img src="Images/carousel/image2.jpg" />   
+            <div class="content content2">
+              <h5>SHE WILL SAY YES</h5>
+              <h2>ENGAGEMENT RINGS</h2>
+              <p>Let us be part of the most beautiful journey in your life</p>
+              <a href="#" class="btn btn-more2">See More</a>
+            </div>
+        </div>  
+  
+        <div class="showSlide fade">  
+            <img src="Images/carousel/image3.jpg" />  
+            <div class="content content3">
+              <h5>SPECIAL OFFERS</h5>
+              <h2>SPECIAL OCCASIONS</h2>
+              <p>Get special discounts during festive occasions to spread the feeling of love and joy!</p>
+              <a href="#" class="btn btn-more3">See More</a>
+            </div>
+        </div>  
+        
+        <!-- Navigation arrows -->  
+        <a class="left" onclick="nextSlide(-1)">❮</a>  
+        <a class="right" onclick="nextSlide(1)">❯</a>  
+    </div>  
+  
+<script src="indexScript.js"></script>
+    <footer class="FNav">
+      <div class="FItems">
+        <div class="Flogo">
+          <a href="index.html">
+          <img
+            src="logo.png"
+            alt="logo"
+            class="himage"
+          />
+          </a>
+        </div>
+        <div class="contents">
+          <div class="products">
+              <h3>Products</h3>
+              <!--<a href="neckWearImageDisplayPage.html">Neck Wear</a>-->
+              <a href="earRingImagesPage.html">Ear Rings</a>
+              <a href="#">Gift Cards</a>
+              <a href="#">Promotions</a>
+          </div>
+          <div class="icons">
+              <h3>Social Media</h3>
+              <section><i class="fab fa-facebook-f"></i><a href="#">Facebook</a></section>
+              <section><i class="fab fa-instagram"></i><a href="#">Instagram</a></section>
+              <section><i class="fab fa-twitter"></i><a href="#">Twitter</a></section>
+          </div>
+          <div class="contact">
+          <h3>Contact us</h3>
+          <p>Diana Jewels INC.<br>347 Atlantic Avenue,<br>Brooklyn</p>
+          <p><span class="ico ico-em"></span><a href="#">contact@dianajewels.com</a></p>
+          <p><span class="ico ico-ph"></span>212.629.7092 </p>
+          </div>
+        </div>
+        <div class="newsletter" style="clear: both;">
+          <h2>Join our mailing list</h2>
+          <input type="text" placeholder="Your email address" />
+          <button>Subscribe</button>
+        </div>
+      </div>
+    </footer>
+</body>  
+</html>   

@@ -1,0 +1,72 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="ECombo.css">
+</head>
+
+<body>
+
+  <!-- zoom slider, and sends the changed zoom value to dlib-wasm-test-ear-js.js -->
+	<div id="button" class="buttons">
+        <input id="input" type="range" class="zoom-range" value="0" onchange="updateTextInput(this.value),include('dlib-wasm-test-ear-js.js');">Zoom
+  </div>
+
+  <!-- star rating -->
+  <div class="rate">
+      <input type="radio" id="star5" name="rate" value="5" />
+      <label for="star5" title="text">5 stars</label>
+      <input type="radio" id="star4" name="rate" value="4" />
+      <label for="star4" title="text">4 stars</label>
+      <input type="radio" id="star3" name="rate" value="3" />
+      <label for="star3" title="text">3 stars</label>
+      <input type="radio" id="star2" name="rate" value="2" />
+      <label for="star2" title="text">2 stars</label>
+      <input type="radio" id="star1" name="rate" value="1" />
+      <label for="star1" title="text">1 star</label>
+  </div>
+
+
+  <div>
+    <!-- getting the image of earring and setting size of the canvases with earrings
+       to fit the webcam video -->
+
+    <img src=" " data-value="" id="front_face" alt="Ear Ring" width="50" height="60" style="display: none;">
+    <img src=" " id="left_side" data-value="" alt=" leftEar Ring" width="50" height="60" style="display: none;">
+    <img src="" id="right_side" data-value="" alt="RightEar Ring" width="50" height="60" style="display: none;">
+
+    <canvas style="height:100%; position: absolute; left:0; top:0; z-index: 0;" id="input-canvas" ></canvas>
+    <canvas style="height:100%; position: absolute; left:0; top:0; z-index: 1;" id="overlay-canvas"></canvas>
+    <video width="250" id="webcam-video" preload="auto" loop playsinline autoplay></video>
+
+  <!-- getting the image of earring for product view on right-hand side -->
+   <img id="ear" src="" alt="img">
+ </div>
+
+
+  <!-- footer logo on right-hand side -->
+  <div class="footer">
+  <img
+          src="logo.png"
+          alt="logo"
+          class="himage"
+        />
+  </div>
+
+  <script>
+  //setting initial value of zoom to 10 (min value of slider)
+  window.localStorage.setItem('zoomvalue', '10');
+  //on change of slider value, zoom value is set to slider value and 
+  //mainLoop() from dlib-wasm-test-neck-js.js is called
+  function updateTextInput(val) {
+          window.localStorage.setItem('zoomvalue', val);
+          mainLoop();
+  }
+  </script>
+
+  <script src="earRingScript.js"></script>
+  <script src="dlib-wasm-test.js"></script>
+  <script src="dlib-wasm-test-ear-js.js"></script>
+  
+ </body>
+
+ </html>
